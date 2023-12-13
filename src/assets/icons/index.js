@@ -31,6 +31,8 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import postgresql from './postgresql.svg'
 import urlshortener from './urlshortener.svg'
+import firebase from './firebase.svg'
+import dotnet from './net.svg'
 
 export {
     cSharp,
@@ -66,4 +68,6 @@ export {
     soundoff,
     postgresql,
     urlshortener,
+    firebase,
+    dotnet,
 }

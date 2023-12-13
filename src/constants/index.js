@@ -27,7 +27,9 @@ import {
     java,
     python,
     postgresql,
-    urlshortener
+    urlshortener,
+    firebase,
+    dotnet
 } from "../assets/icons";
 
 export const skills = [
@@ -66,11 +68,11 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: github,
-    //     name: "GitHub",
-    //     type: "Version Control",
-    // },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
     {
         imageUrl: html,
         name: "HTML",
@@ -126,13 +128,23 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
+    {
+        imageUrl: firebase,
+        name: "Firebase",
+        type: "Database",
+    },
+    {
+        imageUrl: dotnet,
+        name: ".NET Framework",
+        type: "Backend",
+    },
 ];
 
 export const experiences = [
     {
-        title: "Junior Software Developer Co-op",
-        company_name: "University of Alberta",
-        icon: ua,
+        title: "Junior Software Developer Intern",
+        company_name: "3i Precast Concrete Ltd.",
+        icon: precast,
         iconBg: "#33a35b",
         date: "May 2023 - Current",
         points: [
@@ -147,7 +159,7 @@ export const experiences = [
             "Code review over 10+ completed branches and merge into dev and main branches using Git, SourceTree, and BitBucket.",
             "Utilize Microsoft Word for task solution documentation and Microsoft PowerPoint for project meeting demonstrations.",
         ],
-        weblink: "https://sites.google.com/ualberta.ca/modular-construction/home?authuser=0",
+        weblink: "https://3iprecast.com/",
     },
     {
         title: "Software Developer Intern",
